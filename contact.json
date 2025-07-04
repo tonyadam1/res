@@ -1,13 +1,18 @@
 {
   "addressMailing": {
-    "address1": "123 Street",
-    "city": "London",
-    "state": "London",
-    "postalCode": "EC1A1BB",
-    "country": "GB"
+    "address1": "419E 48th St",
+    "address2": "",
+    "city": "Indianapolis",
+    "state": "IN",
+    "postalCode": "46205-1763",
+    "country": "US"
   },
-  "email": "you@example.com",
-  "nameFirst": "bill",
-  "nameLast": "Mr",
-  "phone": "+44.1234567890"
+  "email": "yourexpemail@Gmail.com",
+  "fax": "+1.0000000000",
+  "jobTitle": "Job title",
+  "nameFirst": "Nicole",
+  "nameLast": "Scott",
+  "nameMiddle": "",
+  "organization": "Organization",
+  "phone": "+1.3179026869"
 }
