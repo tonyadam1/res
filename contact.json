@@ -1,0 +1,13 @@
+{
+  "addressMailing": {
+    "address1": "123 Street",
+    "city": "London",
+    "state": "London",
+    "postalCode": "EC1A1BB",
+    "country": "GB"
+  },
+  "email": "you@example.com",
+  "nameFirst": "bill",
+  "nameLast": "Mr",
+  "phone": "+44.1234567890"
+}
