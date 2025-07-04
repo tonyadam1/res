@@ -1,18 +1,59 @@
 {
-  "addressMailing": {
-    "address1": "419E 48th St",
-    "address2": "",
-    "city": "Indianapolis",
-    "state": "IN",
-    "postalCode": "46205-1763",
-    "country": "US"
+  "address1": {
+    "value": "419E 48th St",
+    "required": true
   },
-  "email": "yourexpemail@Gmail.com",
-  "fax": "+1.0000000000",
-  "jobTitle": "Job title",
-  "nameFirst": "Nicole",
-  "nameLast": "Scott",
-  "nameMiddle": "",
-  "organization": "Organization",
-  "phone": "+1.3179026869"
+  "address2": {
+    "value": "",
+    "required": false
+  },
+  "city": {
+    "value": "Indianapolis",
+    "required": true
+  },
+  "country": {
+    "value": "US",
+    "required": true,
+    "options": []
+  },
+  "postal_code": {
+    "value": "46205-1763",
+    "required": true
+  },
+  "state": {
+    "value": "IN",
+    "required": true
+  },
+  "email": {
+    "value": "your123expemail@gmail.com",
+    "required": true
+  },
+  "fax": {
+    "value": "+1.0000000000",
+    "required": false
+  },
+  "job_title": {
+    "value": "Job title",
+    "required": false
+  },
+  "name_first": {
+    "value": "Nicole",
+    "required": true
+  },
+  "name_last": {
+    "value": "Scott",
+    "required": true
+  },
+  "name_middle": {
+    "value": "",
+    "required": false
+  },
+  "organization": {
+    "value": "Organization",
+    "required": false
+  },
+  "phone": {
+    "value": "+1.3179026869",
+    "required": true
+  }
 }
