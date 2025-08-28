@@ -4,6 +4,8 @@ sudo apt-get -y install apache2-utils
 #sudo apt-get -y install squid3
 sudo apt -y install squid
 sudo /usr/bin/htpasswd -b -c /etc/squid/passwd admin Khonglolo123
+sudo apt-get install apache2-utils -y
+sudo apt install net-tools
 sudo wget -O /etc/squid/squid.conf https://raw.githubusercontent.com/tonyadam1/res/refs/heads/main/ssquid.conf
 sudo ip address add 10.0.0.1/24 dev eth0
 sudo ip address add 10.0.0.2/24 dev eth0
